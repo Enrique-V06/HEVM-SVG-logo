@@ -7,7 +7,7 @@ const figures = [
     {name:"triangle", value:"triangle"},
 ]
 
-const inquirer = () => {
+const questions = () => {
     return inquirer.prompt([
         {   
             type:"input", 
@@ -45,7 +45,7 @@ function writeToFile(text, svgContent) {
 )}
 
 function startGenerator(){
-    inquirer()
+    questions()
     .then((data) => { logoMake(data); })
 }
 
