@@ -1,4 +1,5 @@
-import { colorsArray } from './colorsArray';
+// import { colorsArray } from './colorsArray';
+const colorsArray = require('./colorsArray')
 
 class inputcheck {
     constructor(text, textColor, logoColor) {
