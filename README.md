@@ -21,4 +21,4 @@ This was mostly done by me, with some research on how to validate the color inpu
 ## Link to video
 
 Link to video showcasing the functionality:
-https://youtu.be/pyVDBS68yPI 
+[Video](https://youtu.be/pyVDBS68yPI)
